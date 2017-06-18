@@ -1,0 +1,24 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        invisible: true
+    recipient:
+        label: Recipient
+        relation: recipient
+        select: name
+    content:
+        label: Content
+    template_code:
+        label: Template
+    link_url:
+        label: Link
+    read_at:
+        label: Read
+    viewed_at:
+        label: Viewed
+    created_at:
+        label: Created

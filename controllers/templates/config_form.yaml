@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Template
+
+# Model Form Field configuration
+form: $/octobro/notify/models/template/fields.yaml
+
+# Model Class name
+modelClass: Octobro\Notify\Models\Template
+
+# Default redirect location
+defaultRedirect: octobro/notify/templates
+
+# Create page
+create:
+    title: Create Template
+    redirect: octobro/notify/templates/update/:id
+    redirectClose: octobro/notify/templates
+
+# Update page
+update:
+    title: Edit Template
+    redirect: octobro/notify/templates
+    redirectClose: octobro/notify/templates
+
+# Preview page
+preview:
+    title: Preview Template

@@ -1,0 +1,14 @@
+name: Notification
+modelClass: Octobro\Notify\Models\Notification
+form: $/octobro/notify/models/notification/fields.yaml
+defaultRedirect: octobro/notify/notifications
+create:
+    title: 'Create Notification'
+    redirect: 'octobro/notify/notifications/update/:id'
+    redirectClose: octobro/notify/notifications
+update:
+    title: 'Edit Notification'
+    redirect: octobro/notify/notifications
+    redirectClose: octobro/notify/notifications
+preview:
+    title: 'Preview Notification'

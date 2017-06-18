@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    recipient:
+        label: Recipient
+        type: recordfinder
+        list: $/rainlab/user/models/user/columns.yaml
+        nameFrom: name
+        descriptionFrom: email
+        disabled: true
+    content:
+        label: Content
+        type: textarea
+        size: tiny
+        disabled: true
+    template_code:
+        label: Template
+        span: auto
+        disabled: true
+    link_url:
+        label: Link
+        span: auto
+        disabled: true
+    read_at:
+        label: Read
+        type: datepicker
+        span: auto
+    viewed_at:
+        label: Viewed
+        type: datepicker
+        span: auto

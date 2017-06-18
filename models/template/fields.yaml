@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    code:
+        label: Code
+        comment: 'Example: foo.welcome'
+        span: auto
+    description:
+        label: Description
+        type: textarea
+        size: tiny
+        span: auto
+    content:
+        label: Content
+        type: codeeditor
+        language: twig
+        size: small
+        span: left
+    link_page:
+        label: Link Page
+        comment: 'Your page on CMS, i.e: user/welcome'
+        span: right
+    properties:
+        label: Properties
+        type: codeeditor
+        language: ini
+        size: small
+        span: left
+    link_data:
+        label: Link Data
+        type: codeeditor
+        language: ini
+        size: small
+        span: right

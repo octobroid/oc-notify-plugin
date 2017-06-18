@@ -1,0 +1,20 @@
+plugin:
+    name: 'octobro.notify::lang.plugin.name'
+    description: 'octobro.notify::lang.plugin.description'
+    author: Octobro
+    icon: oc-icon-bell
+    homepage: ''
+navigation:
+    notifications:
+        label: Notifications
+        url: octobro/notify/notifications
+        icon: icon-bell-o
+        sideMenu:
+            notifications:
+                label: Notifications
+                url: octobro/notify/notifications
+                icon: icon-bell
+            templates:
+                label: Templates
+                url: octobro/notify/templates
+                icon: icon-files-o

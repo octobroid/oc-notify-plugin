@@ -1,0 +1,4 @@
+1.0.1:
+    - Initialize plugin.
+    - create_notifications_table.php
+    - create_templates_table.php
