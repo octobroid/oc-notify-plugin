@@ -10,6 +10,12 @@ columns:
         label: Code
     description:
         label: Description
+    title:
+        label: Title
+        invisible: true
+    subtitle:
+        label: Subtitle
+        invisible: true
     content:
         label: Content
     link_page:

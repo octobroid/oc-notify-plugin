@@ -16,6 +16,8 @@ class CreateNotificationsTable extends Migration
             $table->string('from_type')->nullable();
             $table->integer('related_id')->unsigned()->nullable();
             $table->string('related_type')->nullable();
+            $table->string('title')->nullable();
+            $table->string('subtitle')->nullable();
             $table->text('content')->nullable();
             $table->string('template_code')->nullable();
             $table->json('data')->nullable();

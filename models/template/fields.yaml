@@ -12,6 +12,16 @@ fields:
         type: textarea
         size: tiny
         span: auto
+    title:
+        label: Title
+        type: textarea
+        size: tiny
+        span: auto
+    subtitle:
+        label: Subtitle
+        type: textarea
+        size: tiny
+        span: auto
     content:
         label: Content
         type: codeeditor

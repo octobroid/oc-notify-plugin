@@ -13,6 +13,8 @@ class CreateTemplatesTable extends Migration
             $table->increments('id');
             $table->string('code')->nullable();
             $table->text('description')->nullable();
+            $table->string('title')->nullable();
+            $table->string('subtitle')->nullable();
             $table->text('content')->nullable();
             $table->text('properties')->nullable();
             $table->string('link_page')->nullable();

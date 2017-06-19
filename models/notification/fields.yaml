@@ -13,6 +13,16 @@ fields:
         nameFrom: name
         descriptionFrom: email
         disabled: true
+    title:
+        label: Title
+        type: textarea
+        size: tiny
+        span: auto
+    subtitle:
+        label: Subtitle
+        type: textarea
+        size: tiny
+        span: auto
     content:
         label: Content
         type: textarea

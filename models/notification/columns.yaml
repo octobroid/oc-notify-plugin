@@ -10,6 +10,12 @@ columns:
         label: Recipient
         relation: recipient
         select: name
+    title:
+        label: Title
+        invisible: true
+    subtitle:
+        label: Subtitle
+        invisible: true
     content:
         label: Content
     template_code:
