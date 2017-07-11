@@ -68,7 +68,7 @@ class Template extends Model
     {
         $properties = Ini::parse($this->properties);
 
-        if (! is_array($this->properties)) return $data;
+        if (! is_array($properties)) return $data;
 
         foreach ($data as $key => $value) {
             if (! isset($properties[$key])) continue;
