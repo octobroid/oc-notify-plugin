@@ -44,10 +44,19 @@ class Template extends Model
     public $attachOne = [];
     public $attachMany = [];
 
+    public function parseTitle($data)
+    {
+        if (! $this->content) return null;
+
+        $data = $this->parseData($data);
+
+        return Twig::parse($this->title, $data);
+    }
+
     public function parseContent($data)
     {
         if (! $this->content) return null;
-        
+
         $data = $this->parseData($data);
 
         return Twig::parse($this->content, $data);

@@ -85,6 +85,16 @@ class Notification extends Model
         $this->update(['viewed_at' => null]);
     }
 
+    public function getTitleAttribute($value)
+    {
+        if ($this->template) {
+            $data = $this->prepareData($this->data);
+            return $this->template->parseTitle($data);
+        }
+
+        return $value;
+    }
+
     public function getContentAttribute($value)
     {
         if ($this->template) {
