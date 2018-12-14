@@ -19,6 +19,11 @@ class Notification extends Model
     protected $guarded = [];
 
     /**
+     * @var array Protected Dates
+     */
+    protected $dates = ['created_at','read_at','viewed_at'];
+
+    /**
      * @var array Fillable fields
      */
     protected $fillable = [];
