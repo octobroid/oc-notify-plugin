@@ -20,7 +20,7 @@ class CreateNotificationsTable extends Migration
             $table->string('subtitle')->nullable();
             $table->text('content')->nullable();
             $table->string('template_code')->nullable();
-            $table->json('data')->nullable();
+            $table->text('data')->nullable();
             $table->string('link_url')->nullable();
             $table->timestamp('read_at')->nullable();
             $table->timestamp('viewed_at')->nullable();
